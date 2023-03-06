@@ -73,7 +73,6 @@ public class Aufgabe1 {
 
                     horizontalLeft &= xFloor && currentGameBoard[i][j - k] == player;
                     horizontalRight &= xCeil && currentGameBoard[i][j + k] == player;
-                    horizontalRight &= xCeil && currentGameBoard[i][j + k] == player;
 
                     diagonalLeft &= yFloor && xFloor && currentGameBoard[i - k][j - k] == player;
                     diagonalRight &= yFloor && xCeil && currentGameBoard[i - k][j + k] == player;
